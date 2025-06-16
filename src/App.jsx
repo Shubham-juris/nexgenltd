@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
+import Navbar from "./Components/common/Navbar";
+import Footer from "./Components/common/Footer";
+import Routepage from "./routes/Routepage";
 
 function App() {
   return (
     <>
-      <h1 className=" text-center font-bold ">Hello world!</h1>
+      <Navbar />
+      <Routepage />
+      <Footer />
     </>
   );
 }
