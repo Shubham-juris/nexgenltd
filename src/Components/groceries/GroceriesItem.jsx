@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import img1 from '../../assets/Groceries/apple.webp';
 import oil from '../../assets/Groceries/oil.avif';
-import Toothpaste from '../../assets/Groceries/toothpaste.jpg';
+import Toothpaste from '../../assets/Groceries/Toothpaste.jpg';
 import Rice from '../../assets/Groceries/Rice.jpg';
 import Shampoo from '../../assets/Groceries/Shampoo.webp';
 import milk from '../../assets/Groceries/milk.jpg'; 
