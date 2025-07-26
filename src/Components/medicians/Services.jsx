@@ -31,7 +31,7 @@ const Service = () => {
   return (
     <>
       <section className="px-6 py-12 text-center">
-      <h2 className="text-4xl font-semibold text-blue-800 mb-2">Medical Services</h2>
+      <h2 className="text-4xl font-semibold text-red-800 mb-2">Medical Services</h2>
       <p className="text-gray-500 mb-10">
         Sample text. Click to select the text box. Click again or double click to start editing the text.
       </p>

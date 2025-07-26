@@ -13,7 +13,7 @@ const Medician = () => {
             <h4 className="uppercase tracking-widest text-gray-600 text-sm">
               Med Center Health
             </h4>
-            <h1 className="text-4xl md:text-5xl font-bold text-blue-800">
+            <h1 className="text-4xl md:text-5xl font-bold text-red-800">
               Highest Quality
             </h1>
             <p className="text-gray-600">
@@ -27,10 +27,11 @@ const Medician = () => {
                 Billionphotos
               </a>
             </p>
-            <Link to="/contact">
-              <button className="mt-4 border-2 border-blue-500 text-blue-600 px-6 py-2 rounded hover:bg-blue-100 transition">
-                Contact Us
-              </button>
+            <Link
+              to="/contact"
+              className="mt-4 inline-block border-2 border-red-500 text-blue-600 px-6 py-2 rounded hover:bg-blue-100 transition"
+            >
+              Contact Us
             </Link>
           </div>
 
@@ -45,7 +46,7 @@ const Medician = () => {
         </div>
 
         {/* Bottom Info Boxes */}
-        <div className="mt-12 bg-blue-700 text-white rounded-lg grid grid-cols-1 md:grid-cols-2 gap-6 p-8">
+        <div className="mt-12 bg-red-700 text-white rounded-lg grid grid-cols-1 md:grid-cols-2 gap-6 p-8">
           <div className="flex items-start space-x-4">
             <FaVirus size={32} />
             <div>
