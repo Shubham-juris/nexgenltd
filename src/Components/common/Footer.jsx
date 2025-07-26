@@ -14,8 +14,10 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold text-white mb-3">NexZen Tensfree</h2>
           <p className="text-sm leading-relaxed">
-            NexGen Tensfree is a Global Trading company offering diverse products like households, groceries, clothes, and medicines.
-          With own outlets and manufacturing, it ensures quality and timely delivery worldwide.
+            NexGen Tensfree is a Global Trading company offering diverse
+            products like households, groceries, clothes, and medicines. With
+            own outlets and manufacturing, it ensures quality and timely
+            delivery worldwide.
           </p>
         </div>
 
@@ -45,7 +47,6 @@ const Footer = () => {
               >
                 Clothes
               </Link>
-              
             </li>
             <li>
               <Link
@@ -60,7 +61,12 @@ const Footer = () => {
 
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact</h3>
-          <p className="text-sm">Phone: 9056729363</p>
+          <a
+            href="tel:9056729363"
+            className="text-sm  hover:underline"
+          >
+            Phone: 9056729363
+          </a>
           <p className="text-sm">
             Email:{" "}
             <a
@@ -106,6 +112,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}; 
+};
 
 export default Footer;
