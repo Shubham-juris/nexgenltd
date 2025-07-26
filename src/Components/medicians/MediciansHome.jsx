@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../../assets/medician/medicalhome.jpeg';
+import bgImage from '../../assets/medician/medicianhome.jpg';
 
 const MedicianHome = () => {
   return (
